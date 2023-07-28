@@ -179,12 +179,24 @@
 
         <div class="protrait">
           <div>
-            <img src="images/portrait2-320_x_480.png" alt="portrait2-320_x_480">
+            <picture>
+              <source srcset="images/portrait2-720_x_1080.png" media="(min-width: 1080px)">
+              <source srcset="images/portrait2-320_x_480.png" media="(max-width: 430px)">
+              <img src="images/portrait2-480_x_720.png" alt="portrait2">
+            </picture>
             <p>May 2023, Ottawa</p>
           </div>
-          <img src="images/portrait3-320_x_320.png" alt="portrait3-320_x_320">
+          <picture>
+            <source srcset="images/portrait3-720_x_720.png" media="(min-width: 1080px)">
+            <source srcset="images/portrait3-320_x_320.png" media="(max-width: 430px)">
+            <img src="images/portrait3-480_x_480.png" alt="portrait3">
+          </picture>
           <div>
-            <img src="images/portrait1-480_x_319.png" alt="portrait1-480_x_319">
+            <picture>
+              <source srcset="images/portrait1-480_x_319.png" media="(min-width: 1080px)">
+              <source srcset="images/portrait3-320_x_320.png" media="(max-width: 430px)">
+              <img src="images/portrait1-720_x_479.png" alt="portrait1">
+            </picture>
             <h2>Natural Light Portrait</h2>
             <p>A portrait album of a lovely girl in the warm spring of Ottawa.</p>
           </div>
