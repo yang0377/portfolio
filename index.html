@@ -27,10 +27,9 @@
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
               <picture>
-                <source srcset="images/logo-lg-4x.png" media="(min-width: 1920px)">
-                <source srcset="images/logo-md-3x.png" media="(min-width: 1080px)">
+                <source srcset="images/logo-lg-4x.png" media="(min-width: 1080px)">
                 <source srcset="images/logo-sm-2x.png" media="(max-width: 430px)">
-                <img src="images/logo-sm.png" alt="logo">
+                <img src="images/logo-md-3x.png" alt="logo">
               </picture>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -105,9 +104,19 @@
       </div>
       <div class="homeinfo">
         <div>
-          <img src="images/design-small-320_x_640.png" alt="design-small-320_x_640">
+          <picture>
+            <source srcset="images/design-square-720_x_720.png" media="(min-width: 1080px)">
+            <source srcset="images/design-small-320_x_640.png" media="(max-width: 430px)">
+            <img src="images/design-medium-480_x_720.png" alt="pencils and ruler">
+          </picture>
+          
           <div>
-            <img src="images/camera-320_x_213.png" alt="camera-320_x_213">
+            <picture>
+              <source srcset="images/camera-720_x_479.png" media="(min-width: 1080px)">
+              <source srcset="images/camera-320_x_213.png" media="(max-width: 430px)">
+              <img src="images/camera-480_x_320.png" alt="camera">
+            </picture>
+            
             <h2>Photographer | UX Designer</h2>
           </div>
           <p>As a photography-savvy 
@@ -121,15 +130,23 @@
           <div>
             <picture>
               <source srcset="images/museum2-720_x_1440.png" media="(min-width: 1920px)">
-              <source srcset="images/museum2-480_x_960.png" media="(min-width: 1080px)">
               <source srcset="images/museum2-320_x_640.png" media="(max-width: 430px)">
-              <img src="images/museum2-720_x_1440.png" alt="museum2-320_x_640">
+              <img src="images/museum2-480_x_960.png" alt="museum2">
             </picture>
             <p>May, 2023, Ottawa</p>
           </div>
-          <img src="images/museum3-320_x_320.png" alt="museum3-320_x_320">
+            <picture>
+              <source srcset="images/museum3-720_x_720.png" media="(min-width: 1080px)">
+              <source srcset="images/museum3-320_x_320.png" media="(max-width: 430px)">
+              <img src="images/museum3-480_x_480.png" alt="museum3">
+            </picture>
+            
           <div>
-            <img src="images/museum1-480_x_319.png" alt="museum1-480_x_319">
+            <picture>
+              <source srcset="images/museum1-1024_x_682.png" media="(min-width: 1080px)">
+              <source srcset="images/museum1-480_x_319.png" media="(max-width: 430px)">
+              <img src="images/museum1-720_x_479.png" alt="museum1">
+            </picture>
             <h2>Canadian Museum of History</h2>
             <p>It's a group of architecture photography of Canadian Museum of History.</p>
           </div>
