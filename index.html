@@ -15,54 +15,107 @@
 </head>
 <body>
     <header>
-        <div>
-            <img src="" alt="logo">
-            <i class="fa-solid fa-bars"></i>
-            <nav>
-                <li>Photography</li>
-                <li>Design</li>
-                <li>About</li>
-                <li>Contact</li>
-            </nav>
-            <nav class="navbar bg-light fixed-top">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">VYVisuals</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">VYVisuals</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="explore.html">Photography</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Design</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                      </ul>
-                      <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-secondary" type="submit">Search</button>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-            
-        </div>
+      <!-- create the navigation section -->
+      <div>
+        <!-- <nav>
+            <li>Photography</li>
+            <li>Design</li>
+            <li>About</li>
+            <li>Contact</li>
+        </nav> -->
+        <nav class="navbar bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <picture>
+                <source srcset="images/logo-lg-4x.png" media="(min-width: 1920px)"/>
+                <source srcset="images/logo-md-3x.png" media="(min-width: 1080px)"/>
+                <source srcset="images/logo-sm-2x.png" media="(max-width: 430px)"/>
+                <img src="images/logo-sm.png" alt="logo">
+              </picture>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">VYVisuals</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body navigation">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="explore.html">Photography</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Design</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>           
+      </div>
     </header>
     <main>
-
+      <!-- sidebar fixed -->
+      <div class="sidebar">
+        <div>
+          <h2>
+            <a href="explore.html">Explore<i class="fa-solid fa-chevron-right"></i></a>
+          </h2>
+          <h2>
+            <a href="explore.html">Contact<i class="fa-solid fa-chevron-right"></i></a>
+          </h2>
+          <i class="fa-solid fa-angles-up" id="top"></i>
+          <!-- <i class="fa-solid fa-chevron-up"></i> -->
+        </div>
+      </div>
+      <!-- add photo slides -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/cover-landscape-1024_x_682.png" class="d-block w-100" alt="cover">
+          </div>
+          <div class="carousel-item">
+            <img src="images/documentary1-480_x_320.png" class="d-block w-100" alt="documentary1-480_x_320">
+          </div>
+          <div class="carousel-item">
+            <img src="images/portrait1-1024_x_682.png" class="d-block w-100" alt="portrait1-1024_x_682">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="homeinfo">
+        <div>
+          <img src="images/design-small-320_x_640.png" alt="design-small-320_x_640">
+          <div>
+            <img src="images/camera-320_x_213.png" alt="camera-320_x_213">
+            <h2>Photographer | UX Designer</h2>
+          </div>
+          <p>As a photography-savvy 
+            designer, I aim to pursue a 
+            path that connects with 
+            humans, nature, and concepts.</p>
+        </div> 
+      </div>
 
     </main>
     <footer>
