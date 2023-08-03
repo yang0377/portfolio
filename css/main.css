@@ -72,8 +72,7 @@ body {
 
 .fixnav {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 .fixnav li a {
@@ -84,6 +83,7 @@ body {
 aside .fixnav {
     transform: rotate(270deg);
 }
+
 /* style the Back to Top buttton */
 .backtop {
     position: relative;
