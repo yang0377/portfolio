@@ -149,14 +149,13 @@ aside .fixnav {
 .homeinfo {
     grid-column: 3 / span 3;
     margin: 20px 48px;
-    display: flex;
-    flex-direction: column;
+    position: relative;
 }
 
 .homeinfo .camera img {
     width: 88px;
     height: 55px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .homeintro {
@@ -164,6 +163,7 @@ aside .fixnav {
     padding-left: 30px;
 }
 
-.homeinfo hr {
-    flex-grow: 1;
+.homeinfo h2 {
+    position: absolute;
+    bottom: 20px;
 }
