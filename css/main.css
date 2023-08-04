@@ -63,6 +63,22 @@ body {
     color: var(--primary-color);
 }
 
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+body a {
+    color: var(--primary-color);
+}
+
 /* style the fixed nav */
 .fix {
     display: column;
@@ -73,6 +89,7 @@ body {
 .fixnav {
     display: flex;
     flex-direction: column; 
+    justify-content: space-between;
 }
 
 .fixnav li a {
@@ -82,6 +99,14 @@ body {
 
 aside .fixnav {
     transform: rotate(270deg);
+}
+
+.fixnav .fixleft {
+    justify-content: flex-start;
+}
+
+.fixnav .fixright {
+    justify-content: flex-end;
 }
 
 /* style the Back to Top buttton */
@@ -101,4 +126,44 @@ aside .fixnav {
 
 .backtop a:hover + .hide {
     display: block;
+}
+
+/* style the home message section */
+.homemessage {
+    background-color: var(--main-bg-color);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.pencil {
+    grid-column: 1 / span 2;
+}
+
+.pencil img {
+    width: 100%;
+    height: 100%;
+}
+
+.homeinfo {
+    grid-column: 3 / span 3;
+    margin: 20px 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeinfo .camera img {
+    width: 88px;
+    height: 55px;
+    margin-bottom: 30px;
+}
+
+.homeintro {
+    font-size: .9rem;
+    padding-left: 30px;
+}
+
+.homeinfo hr {
+    flex-grow: 1;
 }
