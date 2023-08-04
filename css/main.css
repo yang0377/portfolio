@@ -153,8 +153,9 @@ aside .fixnav {
 }
 
 .homeinfo .camera img {
-    width: 88px;
-    height: 55px;
+    width: 40%;
+    height: 20%;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -167,3 +168,35 @@ aside .fixnav {
     position: absolute;
     bottom: 20px;
 }
+
+/* style the project section with grid */
+.project {
+    margin: 20px 40px;
+}
+
+.projectcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+
+.mphoto {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.roundphoto {
+    grid-column: 1 / span 2;
+    grid-row: 3 /span 1;
+}
+
+.mainproject {
+    grid-column: 1 / span 2;
+    grid-row: 4 / span 3;
+}
+
+
+
+
+
+
