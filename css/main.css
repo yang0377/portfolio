@@ -69,6 +69,7 @@ h1 {
 
 h2 {
     font-size: 1.4rem;
+    padding-bottom: 1rem;
 }
 
 h3 {
@@ -136,49 +137,49 @@ body a {
     background-color: var(--main-bg-color);
     margin-top: 80px;
     margin-bottom: 80px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
 }
 
-.pencil {
+/* .pencil {
     grid-column: 1 / span 2;
-}
+} */
 
 .pencil img {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
 }
 
 .homeinfo {
-    grid-column: 3 / span 3;
-    margin: 20px 48px;
-    position: relative;
+    /* grid-column: 3 / span 3; */
+    /* margin: 20px 48px;
+    position: relative; */
 }
 
 .homeinfo .camera img {
-    width: 40%;
+    /* width: 40%;
     height: 20%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; */
 }
 
 .homeintro {
     font-size: .9rem;
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 .homeinfo h2 {
-    position: absolute;
-    bottom: 15px;
+    /* position: absolute;
+    bottom: 15px; */
 }
 
 /* style the project section with grid */
 .project {
-    margin: 20px 40px;
+    /* margin: 20px 40px; */
 }
 
 .project img {
-    height: 100%;
+    /* height: 100%; */
 }
 
 .mphoto, .roundphoto, .mainproject {
@@ -186,69 +187,62 @@ body a {
 }
 
 .projectcontainer {
-    /* display: grid;
-    grid-template-columns: repeat(2, 200px);
-    grid-template-rows: repeat(6, 150px); */
     border-top: 1px solid var(--secondary-color);
-    border-bottom: 1px solid var(--secondary-color)
-    /* border-bottom: 1px solid var(--secondary-color); */
+    border-bottom: 1px solid var(--secondary-color);
 }
 
 .mphoto {
     /* grid-column: 1 / span 2;
     grid-row: 1 / span 2; */
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     position: relative;
 }
 
 .mphoto img {
-    padding-right: 20px;
     padding-top: 20px;
 }
 
 .mphoto p {
     position: absolute;
     bottom: 0;
-    right: 1.5rem;
+    right: 1rem;
 }
 
 .roundphoto {
     /* grid-column: 1 / span 2;
     grid-row: 3 /span 1; */
-    margin: 30px auto;
+    margin: 100px auto;
     position: relative;
-    left: 20%;
 }
 
 .roundphoto:before {
     content: "";
     display: block;
-    width: 148px;
+    width: 100%;
     height: 1px;
     background: var(--primary-color);
     position: absolute;
-    left: 0;
+    left: 100;
     top: 50%;
     z-index: -1;
 }
 
-.roundphoto:after {
+/* .roundphoto:after {
     content: "";
     display: block;
-    width: 300px;
+    width: 20%;
     height: 1px;
     background: var(--primary-color);
     position: absolute;
     right: 0;
     top: 50%;
     z-index: -1;
-}
+} */
 
 .roundphoto img {
     justify-content: center;
     align-content: center;
-    border-radius: 50%;
     border: 1px solid var(--primary-color);
 }
 
@@ -266,15 +260,6 @@ body a {
     padding: 10px 10px;
 }
 
-.roundphoto6 {
-    /* grid-column: 1 / span 2;
-    grid-row: 3 /span 1; */
-    margin: 30px auto;
-    /* padding-top: -30px; */
-    position: relative;
-    left: 0;
-    top: 50%;
-}
 
 
 
