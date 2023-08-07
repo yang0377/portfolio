@@ -82,19 +82,19 @@
         </aside>
       </div>
 
-      <div>
+      <div class="contactcontainer container">
         <h1>Contact</h1>
-        <picture class="contactphoto">
+        <picture class="contactphoto row col-4 justify-content-center mx-auto">
             <source srcset="images/contact-720_x_720.png" media="(min-width: 1080px)">
             <source srcset="images/contact-320_x_320.png" media="(max-width: 430px)">
             <img class="rounded-circle" src="images/contact-480_x_480.png" alt="logo">
         </picture>
-        <div class="contactinfo container m-5">
-            <div >
-                <p>Veronica Yang</p>
-                <p>yang0377@algonquinlive.com</p>
-                <p>Vero: veronicayang</p>
-                <p>Ins: veronicayang8868</p>
+        <div class="contactinfo container mx-auto m">
+            <div class="info m-5" >
+                <p class="pb-3">Veronica Yang</p>
+                <p class="pb-3">yang0377@algonquinlive.com</p>
+                <p class="pb-3">Vero: veronicayang</p>
+                <p class="pb-3">Ins: veronicayang8868</p>
                 <div>
                   <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
                   <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -103,7 +103,7 @@
                   <a href="#"><i class="fa-brands fa-staylinked"></i></a>
                 </div>
             </div>
-            <form action="#" method="post" class="contactform m-5" role="form">
+            <form  class="contactform m-5" action="#" method="post" role="form">
                 <div class="row g-3">
                   <div class="col-12 col-md-6">
                     <input type="text" class="form-control" placeholder="First name" aria-label="First name">
@@ -117,11 +117,10 @@
                   <div class="col-12 mb-3">
                     <textarea class="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div> 
-                  <div>
-                    <button>
-                      <i class="fa-regular fa-paper-plane">Send</i>
-                    </button>
-                  </div>
+                  <button type="send" class="btn btn-light">
+                    <i class="fa-regular fa-paper-plane"> Send</i>
+                  </button>
+                </div>
             </form>
         </div>
       </div>

@@ -69,13 +69,14 @@ h1 {
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 500;
     padding-bottom: 1rem;
 }
 
 h3 {
     font-size: 1.2rem;
+    font-weight: 500;
 }
 
 body a {
@@ -85,6 +86,7 @@ body a {
 img {
     width: 100%;
 }
+
 /* style the fixed nav */
 .fix {
     position: relative;
@@ -140,52 +142,13 @@ img {
 /* style the home message section */
 .homemessage {
     background-color: var(--main-bg-color);
-    margin-top: 80px;
-    margin-bottom: 80px;
-    /* display: grid;
-    grid-template-columns: repeat(5, 1fr); */
-}
-
-/* .pencil {
-    grid-column: 1 / span 2;
-} */
-
-.pencil img {
-    /* width: 100%;
-    height: 100%; */
-}
-
-.homeinfo {
-    /* grid-column: 3 / span 3; */
-    /* margin: 20px 48px;
-    position: relative; */
-}
-
-.homeinfo .camera img {
-    /* width: 40%;
-    height: 20%;
-    margin-top: 10px;
-    margin-bottom: 10px; */
 }
 
 .homeintro {
     font-size: .9rem;
-    /* padding-left: 30px; */
-}
-
-.homeinfo h2 {
-    /* position: absolute;
-    bottom: 15px; */
 }
 
 /* style the project section with grid */
-.project {
-    /* margin: 20px 40px; */
-}
-
-.project img {
-    /* height: 100%; */
-}
 
 .mphoto, .roundphoto, .mainproject {
     margin: 30px 30px;
@@ -197,10 +160,6 @@ img {
 }
 
 .mphoto {
-    /* grid-column: 1 / span 2;
-    grid-row: 1 / span 2; */
-    /* display: flex; */
-    /* flex-direction: row; */
     position: relative;
 }
 
@@ -215,8 +174,6 @@ img {
 }
 
 .roundphoto {
-    /* grid-column: 1 / span 2;
-    grid-row: 3 /span 1; */
     margin: 100px auto;
     position: relative;
 }
@@ -233,18 +190,6 @@ img {
     z-index: -1;
 }
 
-/* .roundphoto:after {
-    content: "";
-    display: block;
-    width: 20%;
-    height: 1px;
-    background: var(--primary-color);
-    position: absolute;
-    right: 0;
-    top: 50%;
-    z-index: -1;
-} */
-
 .roundphoto img {
     justify-content: center;
     align-content: center;
@@ -252,8 +197,6 @@ img {
 }
 
 .mainproject {
-    /* grid-column: 1 / span 2;
-    grid-row: 4 / span 3; */
     display: column;
 }
 
@@ -268,9 +211,33 @@ img {
 /* style the about page */
 .aboutcontainer {
     background-color: var(--main-bg-color);
+    max-width: 1000px;
 }
 
+.aboutcontainer h1 {
+    /* writing-mode: vertical-rl; */
+    transform: rotate(90deg);
+    position: absolute;
+    left: 80%;
+    top: 30%;
+}
 
+.abouttext {
+    max-width: 720px;
+}
+
+/* style the contact page */
+.contactcontainer {
+    background-color: var(--main-bg-color);
+    max-width: 1000px;
+}
+
+.contactcontainer h1 {
+    transform: rotate(90deg);
+    position: absolute;
+    left: 80%;
+    top: 30%;
+}
 
 
 
