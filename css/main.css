@@ -236,7 +236,16 @@ img {
     transform: rotate(90deg);
     position: absolute;
     left: 80%;
-    top: 30%;
+    top: 31%;
+}
+
+.btn {
+    color: var(--primary-color);
+}
+
+.btn:hover {
+    color: var(--main-bg-color);
+    background-color: var(--primary-color);
 }
 
 
