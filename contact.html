@@ -84,13 +84,13 @@
 
       <div>
         <h1>Contact</h1>
-        <picture>
+        <picture class="contactphoto">
             <source srcset="images/contact-720_x_720.png" media="(min-width: 1080px)">
             <source srcset="images/contact-320_x_320.png" media="(max-width: 430px)">
-            <img src="images/contact-480_x_480.png" alt="logo">
+            <img class="rounded-circle" src="images/contact-480_x_480.png" alt="logo">
         </picture>
-        <div>
-            <div>
+        <div class="contactinfo container m-5">
+            <div >
                 <p>Veronica Yang</p>
                 <p>yang0377@algonquinlive.com</p>
                 <p>Vero: veronicayang</p>
@@ -103,35 +103,35 @@
                   <a href="#"><i class="fa-brands fa-staylinked"></i></a>
                 </div>
             </div>
-            <form action="#" method="post" class="contactform" role="form">
-                <div>
-                    <label for="firstname">First Name</label>
-                    <input type="text"  name="firstname" id="firstname" required>
-                </div>
-                <div>
-                    <label for="lastname">Last Name</label>
-                    <input type="text" name="lastname" id="lastname" required>
-                </div>
-                
-                <div>
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email">
-                </div>
-                
-                <div>
-                    <label for="message">Message</label>
-                    <textarea id="message"></textarea>
-                </div> 
+            <form action="#" method="post" class="contactform m-5" role="form">
+                <div class="row g-3">
+                  <div class="col-12 col-md-6">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                  </div>
+                  <div class="col-12">
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                  </div>
+                  <div class="col-12 mb-3">
+                    <textarea class="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div> 
+                  <div>
+                    <button>
+                      <i class="fa-regular fa-paper-plane">Send</i>
+                    </button>
+                  </div>
             </form>
         </div>
       </div>
     </main>
-    <footer>
-        <picture>
-            <source srcset="images/logo-lg-4x.png" media="(min-width: 1080px)">
-            <source srcset="images/logo-sm-2x.png" media="(max-width: 430px)">
-            <img src="images/logo-md-3x.png" alt="logo">
-        </picture> 
+    <footer class="row">
+      <picture>
+        <source srcset="images/logo-md-3x.png" media="(min-width: 1080px)">
+        <source srcset="images/logo-sm.png" media="(max-width: 430px)">
+        <img class="col-1 offset-10" src="images/logo-sm-2x.png" alt="logo">
+      </picture>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js
     "></script>
