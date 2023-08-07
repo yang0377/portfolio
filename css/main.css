@@ -65,10 +65,12 @@ body {
 
 h1 {
     font-size: 1.8rem;
+    font-weight: 500;
 }
 
 h2 {
     font-size: 1.4rem;
+    font-weight: 500;
     padding-bottom: 1rem;
 }
 
@@ -80,6 +82,9 @@ body a {
     color: var(--primary-color);
 }
 
+img {
+    width: 100%;
+}
 /* style the fixed nav */
 .fix {
     position: relative;
