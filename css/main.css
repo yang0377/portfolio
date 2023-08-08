@@ -56,7 +56,6 @@ table {
 }
 
 body {
-    /* font-family: 'Oswald', sans-serif; */
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 1.5rem;
@@ -153,22 +152,9 @@ img {
     font-size: .9rem;
 }
 
-/* style the project section with grid */
-/* .mphoto, .roundphoto, .mainproject {
-    margin: 30px 30px;
-} */
-
 .projectcontainer {
     border-top: 1px solid var(--secondary-color);
     border-bottom: 1px solid var(--secondary-color);
-}
-
-/* .mphoto {
-    position: relative;
-} */
-
-.mphoto img {
-    /* padding-top: 20px; */
 }
 
 .roundphoto {
@@ -246,15 +232,6 @@ img {
     .homeinfo p {
         font-size: 1.2rem;
         line-height: 2rem;
-    }
-
-    /* style the projexts section */
-    .wrapper {
-        /* margin: 50px 0; */
-    }
-
-    .mphoto {
-        /* padding-top: 10px; */
     }
 
     .roundphoto {
