@@ -141,7 +141,7 @@ img {
 }
 
 .backtop a:hover + .hide {
-    /* display: block; */
+    display: block;
 }
 
 /* style the home message section */
@@ -154,7 +154,6 @@ img {
 }
 
 /* style the project section with grid */
-
 .mphoto, .roundphoto, .mainproject {
     margin: 30px 30px;
 }
@@ -209,10 +208,6 @@ img {
     height: 60%;
 }
 
-.projecttext {
-    padding: 10px 10px;
-}
-
 /* style the about page */
 .aboutcontainer {
     background-color: var(--main-bg-color);
@@ -246,6 +241,8 @@ img {
 
 .btn {
     color: var(--primary-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
 }
 
 .btn:hover {
@@ -255,11 +252,86 @@ img {
 
 /* style the explore page */
 .exploreside {
-    /* transform: rotate(90deg);
-    position: absolute;
-    left: 80%;
-    top: 50%; */
+    
 }
 
+@media screen and (min-width:1024px) {
+    .carousel {
+        margin: 0 50px;
+        padding: 1rem ;
+    }
 
+    .homemessage {
+        margin: 50px 0;
+        padding: 0 50px;
+    }
+
+    .homeinfo p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    /* style the projects section */
+    .projectcontainer {
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    .mphoto {
+        grid-column: 6 / span 1;
+        grid-row: 1 / span 1;
+    }
+
+    .mainproject {
+        grid-column: 1 / span 4;
+        grid-row: 1 / span 2;
+    }
+   
+    .roundphoto {
+        grid-column: 5 / span 1;
+        grid-row: 1 / span 2;
+    }
+
+    .mphoto, .roundphoto, .mainproject {
+        margin: 30px 30px;
+    }
+    
+    .projectcontainer {
+        border-top: 1px solid var(--secondary-color);
+        border-bottom: 1px solid var(--secondary-color);
+    }
+    
+    .mphoto {
+        /* position: relative; */
+    }
+    
+    .mphoto img {
+        padding-top: 20px;
+    }
+    
+    .mphoto p {
+        /* position: absolute; */
+        bottom: 0;
+        right: 1rem;
+    }
+    
+    .roundphoto {
+        margin: 100px auto;
+        position: relative;
+    }
+    
+    .roundphoto:before {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 100%;
+        background: var(--primary-color);
+        position: absolute;
+        left: 62%;
+        top: 0;
+        z-index: -1;
+    }
+    
+}
 
