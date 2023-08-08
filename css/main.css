@@ -101,6 +101,7 @@ img {
 
 .fixnav li a {
     text-decoration: none;
+    font-weight: bold;
     color: var(--primary-color);
     display: inline-block;
     transform: rotate(270deg);
@@ -118,11 +119,15 @@ img {
     right: 10px;
 }
 
+.fixabout {
+    right: 16px;
+}
+
 /* style the Back to Top buttton */
 .backtop {
     position: fixed;
-    bottom: 100px;
-    right: 38px;
+    bottom: 80px;
+    right: 40px;
 }
 
 .backtop a {
@@ -136,7 +141,7 @@ img {
 }
 
 .backtop a:hover + .hide {
-    display: block;
+    /* display: block; */
 }
 
 /* style the home message section */
@@ -248,7 +253,13 @@ img {
     background-color: var(--primary-color);
 }
 
-
+/* style the explore page */
+.exploreside {
+    /* transform: rotate(90deg);
+    position: absolute;
+    left: 80%;
+    top: 50%; */
+}
 
 
 
