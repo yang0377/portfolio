@@ -126,6 +126,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* z-index: 5000; */
 }
 
 .fixnav li a {
@@ -259,15 +260,15 @@ img {
 }
 
 /* style the explore page */
-.exploretitle {
-    
+.exploreaside {
+    position: relative;
 }
-.exploretitle h1 {
+.photography {
     color: var(--main-bg-color);
     transform: rotate(90deg);
     position: absolute;
-    right: ;
-    top: 60%;
+    top: 0;
+    right: 0;
     z-index: 2;
 }
 

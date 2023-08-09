@@ -31,7 +31,7 @@
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
               <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">VYVisuals</h5>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body navigation">
@@ -78,7 +78,7 @@
           <p class="hide">Back to Top</p>
         </aside>
       </div>
-      <div>
+      <div class="coverbox">
         <div class="explorecover">
           <picture>
             <source srcset="images/explore-cover-landscape-1920_x_1279.png" media="(min-width: 1080px)">
@@ -86,18 +86,23 @@
             <img src="images/explore-cover-landscape-1024_x_682.png" alt="explore-cover">
           </picture> 
         </div>
-        <!--  -->
-        <div class="exploretitle">
+        <!-- set the aside content -->
+        <div class="exploreaside">
           <div>
-            <h1>Photography</h1>
-            <a href="design.html">Design<i class="fa-solid fa-chevron-right"></i></a>
+            <div class="photography">
+              <h1>Photography</h1>
+            </div>
+            <div class="design">
+              <a href="design.html">Design<i class="fa-solid fa-chevron-right"></i></a>
+            </div>
           </div>
-          <div>
+          
+          <div class="explorecamera">
             <picture>
               <source srcset="images/camera-720_x_1079.png" media="(min-width: 1080px)">
               <source srcset="images/camera-320_x_479.png" media="(max-width: 430px)">
               <img src="images/camera-480_x_720.png" alt="explore-cover">
-          </picture>
+            </picture>
           </div> 
         </div>   
       </div>
