@@ -149,10 +149,15 @@ img {
     background-color: var(--main-bg-color);
 }
 
+.homemessage .role{
+    font-size: 1rem;
+}
+
 .homeintro {
     font-size: .9rem;
 }
 
+/* style the projects section */
 .projectcontainer {
     border-top: 1px solid var(--secondary-color);
     border-bottom: 1px solid var(--secondary-color);
@@ -236,12 +241,16 @@ img {
     z-index: 2;
 }
 
+/* style the medium size layout */
 @media screen and (min-width:768px) {
-    
 
     .homeinfo p {
         font-size: 1.2rem;
         line-height: 2rem;
+    }
+
+    .homemessage .role{
+        font-size: 1.4rem;
     }
 
     .roundphoto {
