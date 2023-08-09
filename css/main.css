@@ -263,16 +263,30 @@ img {
 .exploreaside {
     position: relative;
 }
+
 .photography {
-    color: var(--main-bg-color);
+    width: 2rem;
     transform: rotate(90deg);
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
 }
 
-/* style the project date only for small size */
+.design a {
+    position: absolute;
+    /* left: 20%; */
+    bottom: 0;
+    padding-bottom: 15px;
+}
+
+.exploreside {
+    width: 2rem;
+    transform: rotate(90deg);
+    /* border-bottom: 1px solid var(--primary-color); */
+}
+
+.gallerypic {
+    border-right: 1px solid var(--primary-color);
+}
+
+/* style elements only for small size */
 @media screen and (max-width: 768px) {
     .mphotobox {
         position: relative;
@@ -283,6 +297,10 @@ img {
         left: 30%;
         bottom: 0;
     }  
+    /* explore page */
+    .exploreaside {
+        display: none;
+    }
 }
 
 /* style the medium size layout */
@@ -322,11 +340,19 @@ img {
     .mainproject {
         margin-top: 150px;
     }
+
+    /* explore page */
+    
 }
 
 /* style the large size layout */
 @media screen and (min-width:992px) {
     .carousel-inner img {
         border-radius: 50px;
+    }
+
+    .photography h1 {
+        font-size: 3rem;
+        padding-bottom: 3rem;
     }
 }
