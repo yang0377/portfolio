@@ -220,7 +220,7 @@ img {
 /* style the about page */
 .aboutcontainer {
     background-color: var(--main-bg-color);
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .aboutcontainer h1 {
@@ -238,7 +238,7 @@ img {
 /* style the contact page */
 .contactcontainer {
     background-color: var(--main-bg-color);
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .contactcontainer h1 {
@@ -276,9 +276,15 @@ img {
     padding-bottom: 15px;
 }
 
+.sidecontainer {
+    position: relative;
+}
+
 .exploreside {
     width: 2rem;
     transform: rotate(90deg);
+    position: absolute;
+    top: 30%;
     /* border-bottom: 1px solid var(--primary-color); */
 }
 
