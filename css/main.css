@@ -224,8 +224,16 @@ img {
 }
 
 /* style the explore page */
-.exploreside {
+.exploretitle {
     
+}
+.exploretitle h1 {
+    color: var(--main-bg-color);
+    transform: rotate(90deg);
+    position: absolute;
+    right: ;
+    top: 60%;
+    z-index: 2;
 }
 
 @media screen and (min-width:768px) {
