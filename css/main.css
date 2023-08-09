@@ -227,7 +227,7 @@ img {
     /* writing-mode: vertical-rl; */
     transform: rotate(90deg);
     position: absolute;
-    left: 80%;
+    right: 5%;
     top: 30%;
 }
 
@@ -244,7 +244,7 @@ img {
 .contactcontainer h1 {
     transform: rotate(90deg);
     position: absolute;
-    left: 80%;
+    right: 5%;
     top: 31%;
 }
 
