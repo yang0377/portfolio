@@ -86,6 +86,40 @@ img {
     width: 100%;
 }
 
+/* style the nav bar */
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-item a {
+    color: var(--primary-color);
+    padding-bottom: .25rem;
+    position: relative;
+}
+
+.nav-item a::before {
+    content: "";
+    position: absolute;
+    /* left: 0; */
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--secondary-color);
+    transition: width 0.25s ease-out;
+}
+
+.nav-item a:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+
 /* style the fixed nav */
 .fix {
     position: relative;
