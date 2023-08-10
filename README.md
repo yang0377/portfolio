@@ -1,6 +1,6 @@
 # The Process of This Website
 
-The process of web page programming follows a clear path. First, I create a basic HTML layout, then I add Bootstrap code, and finally, I incorporate necessary CSS code. The most challenging part is the design phase, which took around a month. The actual webpage programming was completed in a week. The main programming difficulty arose from my unfamiliarity with certain codes, like Bootstrap. Unfortunately I had forgotten almost 90% of the code I had previously learned. This led me to relearn and experiment many times during the writing process. 
+The process of web page programming follows a clear path. First, I create a basic HTML layout, then I add Bootstrap code, and finally, I incorporate necessary CSS code. The most challenging part is the design phase, which took around a month. The actual webpage programming was completed in a week. The main programming difficulty arose from my unfamiliarity with certain codes, like Bootstrap. Unfortunately I had forgotten almost 90% of the code I had previously learned. This led me to relearn and experiment many times during programming. 
 
 The two most crucial lessons from this experience were learning to break down my designs and continuously learning from online resources. Initially, I found writing HTML simple, but when I began using Bootstrap, I realized the need to deconstruct my design into grids, much like disassembling Lego. This concept also highlighted the importance of carefully planning grid layouts during the design phase, keeping the subsequent programming in mind.
 
