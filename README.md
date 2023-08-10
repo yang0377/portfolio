@@ -6,14 +6,16 @@ The two most crucial lessons from this experience were learning to break down my
 
 The second lesson is about continuous learning. I spent nearly 80% of my time searching for resources and seeking help from my professors and classmates. Unexpected small issues would sometimes halt my progress for an entire day. Yet, I persevered until I found solutions. As long as I hadn't achieved my desired outcome, I remained in a state of constant learning. I still haven't complete my exlpore page and my parallax till this moment, but I'll try to finish my design after this assignment.
 
-Although this week felt challenging, it was rewarding. I never imagined that I could create a web page based on my own design. This feeling is truly amazing!
+Although this week felt challenging, it was rewarding. I never imagined that I could create a web page based on my own design. This feeling is truly amazing! 
+
+I want to sincerely thank Rob for providing me with the support and patient guidance I needed. Without him, I wouldn't have been able to finish such a challenging project.
 
 
 #h1 credit for stock images:
-- ![penciles](image.jpg) from [title](https://unsplash.com/photos/viE17T0wtac)
-- ![camera](image.jpg) from from [title](https://unsplash.com/photos/_T4w3JDm6ug) 
-- ![contact](image.jpg) from from [title](https://unsplash.com/photos/N_G2Sqdy9QY) 
+- ![penciles](images/design-medium-480_x_720.png) from [title](https://unsplash.com/photos/viE17T0wtac)
+- ![camera](images/camera-480_x_720.png) from from [title](https://unsplash.com/photos/_T4w3JDm6ug) 
+- ![contact](images/contact-480_x_480.png) from from [title](https://unsplash.com/photos/N_G2Sqdy9QY) 
 
 #h1 CSS Libraries
-- Fonts: "Raleway" from [title](https://www.googlefonts.com)
+- Fonts: "Raleway" from [title](https://www.https://fonts.google.com/)
 - CSS and JavaScript plugin from [title](https://getbootstrap.com/)
