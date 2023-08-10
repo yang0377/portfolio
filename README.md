@@ -15,5 +15,5 @@ Although this week felt challenging, it was rewarding. I never imagined that I c
 - ![contact](image.jpg) from from [title](https://unsplash.com/photos/N_G2Sqdy9QY) 
 
 #h1 CSS Libraries
-- Fonts: Raleway from [title](https://www.googlefonts.com)
+- Fonts: "Raleway" from [title](https://www.googlefonts.com)
 - CSS and JavaScript plugin from [title](https://getbootstrap.com/)
