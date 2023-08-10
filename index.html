@@ -20,10 +20,10 @@
 </head>
 
 <body>
-  <header>
+  <header role="banner">
     <!-- create a dropdown navigation menu-->
     <div>
-      <nav class="navbar navbar-expand-md bg-light" id="top">
+      <nav class="navbar navbar-expand-md bg-light" id="top" role="navigation">
         <div class="container-fluid">
           <a class="navbar-brand logo" href="index.html">
             <picture>
@@ -69,7 +69,7 @@
   <main>
     <!-- sidebar fixed -->
     <div class="fix">
-      <aside>
+      <aside role="complementary">
         <ul class="fixnav">
           <li class="fixexplore">
             <a href="explore.html">Explore <i class="fa-solid fa-chevron-right"></i></a>
@@ -79,7 +79,7 @@
           </li>
         </ul>
       </aside>
-      <aside class="backtop">
+      <aside role="complementary" class="backtop">
         <a href="#top">
           <i class="fa-solid fa-angles-up"></i>
         </a>
@@ -151,7 +151,7 @@
                 <picture>
                   <source srcset="images/museum2-720_x_1440.png" media="(min-width: 1080px)">
                   <source srcset="images/museum2-320_x_640.png" media="(max-width: 430px)">
-                  <img itemprop="image" src="images/museum2-480_x_960.png" alt="museum2">
+                  <img src="images/museum2-480_x_960.png" alt="museum2">
                 </picture>
               </div>
               <div class="mphotodate col-6 offset-2 col-md-12 offset-md-0 pt-md-4">
@@ -180,7 +180,7 @@
             </div>
             <div class="pb-2">
               <div class="projecttext mt-4 mb-4">
-                <h2><a href="#">Canadian Museum of History</a></h2>
+                <h2 role="heading"><a href="#">Canadian Museum of History</a></h2>
                 <p>It's a group of architecture photography of Canadian Museum of History.</p>
               </div>
             </div>
@@ -227,7 +227,7 @@
             </div>
             <div class="pb-2">
               <div class="projecttext mt-4 mb-4">
-                <h2><a href="#">Normal People in Nepal</a></h2>
+                <h2 role="heading"><a href="#">Normal People in Nepal</a></h2>
                 <p>This is a group of street photography works that capture the life of normal people in Nepal.</p>
               </div>
             </div>
@@ -274,7 +274,7 @@
             </div>
             <div class="pb-2">
               <div class="projecttext mt-4 mb-4">
-                <h2><a href="#">Natural Light Portrait</a></h2>
+                <h2 role="heading"><a href="#">Natural Light Portrait</a></h2>
                 <p>A portrait album of a lovely girl in the warm spring of Ottawa.</p>
               </div>
             </div>
@@ -322,7 +322,7 @@
             </div>
             <div class="pb-2">
               <div class="projecttext mt-4 mb-4">
-                <h2><a href="#">Photography of a Bug Family</a></h2>
+                <h2 role="heading"><a href="#">Photography of a Bug Family</a></h2>
                 <p>This is a family photograph of a group of lovely baby bugs, even though they are so tiny, they look like a beautiful bracelet in my camera.</p>
               </div>
             </div>
@@ -369,7 +369,7 @@
             </div>
             <div class="pb-2">
               <div class="projecttext mt-4 mb-4">
-                <h2><a href="#">Web Design for My Portfolio</a></h2>
+                <h2 role="heading"><a href="#">Web Design for My Portfolio</a></h2>
                 <p>CMS web design project for my portfolio at college.</p>
               </div>
             </div>
@@ -379,7 +379,7 @@
     </div>
   </main>
 
-  <footer class="row mt-3">
+  <footer class="row mt-3" role="contentinfo">
     <picture>
       <source srcset="images/logo-md-3x.png" media="(min-width: 1080px)">
       <source srcset="images/logo-sm.png" media="(max-width: 430px)">

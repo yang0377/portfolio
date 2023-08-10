@@ -172,7 +172,7 @@ img {
 }
 
 .backtop a:hover + .hide {
-    display: block;
+    /* display: block; */
 }
 
 /* style the home message section */
