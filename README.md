@@ -17,5 +17,5 @@ I want to sincerely thank Rob for providing me with the support and patient guid
 - ![contact](images/contact-480_x_480.png) from from [unsplash](https://unsplash.com/photos/N_G2Sqdy9QY) 
 
 # CSS Libraries
-- Fonts: "Raleway" from [googlefonts](https://www.https://fonts.google.com/)
+- Fonts: "Raleway" from [googlefonts](https://fonts.google.com/)
 - CSS and JavaScript plugin from [Bootstrap](https://getbootstrap.com/)
