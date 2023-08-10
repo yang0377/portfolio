@@ -126,7 +126,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* z-index: 5000; */
 }
 
 .fixnav li a {
@@ -206,7 +205,7 @@ img {
     height: 1px;
     background: var(--primary-color);
     position: absolute;
-    left: 100;
+    left: 0;
     top: 50%;
     z-index: -1;
 }
@@ -248,6 +247,7 @@ img {
     top: 31%;
 }
 
+/* style the send button */
 .btn {
     color: var(--primary-color);
     font-family: 'Raleway', sans-serif;
@@ -295,6 +295,7 @@ img {
 
 /* style elements only for small size */
 @media screen and (max-width: 768px) {
+    /* home page */
     .mphotobox {
         position: relative;
     }
@@ -313,6 +314,7 @@ img {
 
 /* style the medium size layout */
 @media screen and (min-width:768px) {
+    /* home page */
     .homeinfo p {
         font-size: 1.2rem;
         line-height: 2rem;
