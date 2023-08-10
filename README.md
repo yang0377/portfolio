@@ -1,4 +1,4 @@
-#h1 The Process of This Website
+# The Process of This Website
 
 The process of web page programming follows a clear path. First, I create a basic HTML layout, then I add Bootstrap code, and finally, I incorporate necessary CSS code. The most challenging part is the design phase, which took around a month. The actual webpage programming was completed in a week. The main programming difficulty arose from my unfamiliarity with certain codes, like Bootstrap. Unfortunately I had forgotten almost 90% of the code I had previously learned. This led me to relearn and experiment many times during the writing process. 
 
@@ -11,11 +11,11 @@ Although this week felt challenging, it was rewarding. I never imagined that I c
 I want to sincerely thank Rob for providing me with the support and patient guidance I needed. Without him, I wouldn't have been able to finish such a challenging project.
 
 
-#h1 credit for stock images:
+# credit for stock images:
 - ![penciles](images/design-medium-480_x_720.png) from [unsplash](https://unsplash.com/photos/viE17T0wtac)
 - ![camera](images/camera-480_x_720.png) from from [unsplash](https://unsplash.com/photos/_T4w3JDm6ug) 
 - ![contact](images/contact-480_x_480.png) from from [unsplash](https://unsplash.com/photos/N_G2Sqdy9QY) 
 
-#h1 CSS Libraries
+# CSS Libraries
 - Fonts: "Raleway" from [googlefonts](https://www.https://fonts.google.com/)
 - CSS and JavaScript plugin from [Bootstrap](https://getbootstrap.com/)
