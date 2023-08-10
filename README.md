@@ -12,10 +12,10 @@ I want to sincerely thank Rob for providing me with the support and patient guid
 
 
 #h1 credit for stock images:
-- ![penciles](images/design-medium-480_x_720.png) from [title](https://unsplash.com/photos/viE17T0wtac)
-- ![camera](images/camera-480_x_720.png) from from [title](https://unsplash.com/photos/_T4w3JDm6ug) 
-- ![contact](images/contact-480_x_480.png) from from [title](https://unsplash.com/photos/N_G2Sqdy9QY) 
+- ![penciles](images/design-medium-480_x_720.png) from [unsplash](https://unsplash.com/photos/viE17T0wtac)
+- ![camera](images/camera-480_x_720.png) from from [unsplash](https://unsplash.com/photos/_T4w3JDm6ug) 
+- ![contact](images/contact-480_x_480.png) from from [unsplash](https://unsplash.com/photos/N_G2Sqdy9QY) 
 
 #h1 CSS Libraries
-- Fonts: "Raleway" from [title](https://www.https://fonts.google.com/)
-- CSS and JavaScript plugin from [title](https://getbootstrap.com/)
+- Fonts: "Raleway" from [googlefonts](https://www.https://fonts.google.com/)
+- CSS and JavaScript plugin from [Bootstrap](https://getbootstrap.com/)

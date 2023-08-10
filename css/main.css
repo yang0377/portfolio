@@ -99,7 +99,7 @@ img {
     position: relative;
 }
 
-.nav-item a::before {
+.nav-item a::after {
     content: "";
     position: absolute;
     right: 0;
@@ -110,7 +110,7 @@ img {
     transition: width 0.25s ease-out;
 }
 
-.nav-item a:hover::before {
+.nav-item a:hover::after {
     width: 100%;
     left: 0;
     right: auto;
@@ -296,6 +296,10 @@ img {
 /* style elements only for small size */
 @media screen and (max-width: 768px) {
     /* home page */
+    .offcanvas-body {
+        width: min-content;
+    }
+    
     .mphotobox {
         position: relative;
     }
