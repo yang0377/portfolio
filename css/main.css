@@ -139,7 +139,7 @@ img {
 
 .fixnav li {
     position: fixed;
-    bottom: 150px;
+    bottom: 200px;
 }
 
 .fixexplore {
@@ -157,7 +157,7 @@ img {
 /* style the Back to Top buttton */
 .backtop {
     position: fixed;
-    bottom: 80px;
+    bottom: 130px;
     right: 30px;
 }
 
@@ -357,5 +357,22 @@ img {
     .photography h1 {
         font-size: 3rem;
         padding-bottom: 3rem;
+    }
+
+    .albums {
+        position: relative;
+    }
+    
+    .albumtext1 a{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        /* padding-right: 10%; */
+    }
+
+    .albumtext2 a {
+        position: absolute;
+        bottom:0;
+        /* padding-left: 10%; */
     }
 }
