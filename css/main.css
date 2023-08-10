@@ -284,7 +284,10 @@ img {
     width: 2rem;
     transform: rotate(90deg);
     position: absolute;
-    top: 30%;
+    /* top: 30%; */
+    top: 0;
+    /* padding-left: 100%;
+    padding-top: 115%; */
     /* border-bottom: 1px solid var(--primary-color); */
 }
 
@@ -303,6 +306,7 @@ img {
         left: 30%;
         bottom: 0;
     }  
+
     /* explore page */
     .exploreaside {
         display: none;
@@ -375,4 +379,17 @@ img {
         bottom:0;
         /* padding-left: 10%; */
     }
+
+    /* .exploreside:after {
+        content: "";
+        display: block;
+        width: 728px;
+        height: 1px;
+        background: var(--primary-color);
+        position: absolute;
+        left: 0;
+        top: 100;
+        right: 100;
+        z-index: -1;
+    } */
 }
