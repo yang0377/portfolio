@@ -271,7 +271,6 @@ img {
 
 .design a {
     position: absolute;
-    /* left: 20%; */
     bottom: 0;
     padding-bottom: 15px;
 }
@@ -284,7 +283,6 @@ img {
     width: 2rem;
     transform: rotate(90deg);
     position: absolute;
-    /* top: 30%; */
     top: 0;
     /* padding-left: 100%;
     padding-top: 115%; */
@@ -354,10 +352,12 @@ img {
 
 /* style the large size layout */
 @media screen and (min-width:992px) {
+    /* home page */
     .carousel-inner img {
         border-radius: 50px;
     }
 
+    /* explore page */
     .photography h1 {
         font-size: 3rem;
         padding-bottom: 3rem;
@@ -378,6 +378,10 @@ img {
         position: absolute;
         bottom:0;
         /* padding-left: 10%; */
+    }
+
+    .gallerycontainer {
+        margin: 0 30px;
     }
 
     /* .exploreside:after {
