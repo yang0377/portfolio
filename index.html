@@ -96,18 +96,44 @@
           aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
           aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
       </div>
+
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/cover-landscape-1024_x_682.png" class="d-block" alt="landscape-1024_x_682">
+          <picture class="d-block w-100">
+            <source srcset="images/cover-landscape-1920_x_1279.png" media="(min-width: 1080px)">
+            <source srcset="images/cover-vertical-720_x_959.png" media="(max-width: 430px)">
+            <img src="images/cover-landscape-1024_x_682.png" alt="landscape">
+          </picture>
         </div>
+        
         <div class="carousel-item">
-          <img src="images/documentary1-1024_x_682.png" class="d-block" alt="documentary1-480_x_320">
+          <picture class="d-block w-100">
+            <source srcset="images/documentary1-1920_x_1280.png" media="(min-width: 1080px)">
+            <source srcset="images/documentary1-vertical-720_x_960.png" media="(max-width: 430px)">
+            <img src="images/documentary1-1024_x_682.png" alt="landscape">
+          </picture>
         </div>
+        
+        <div class="carousel-item w-100">
+          <picture class="d-block">
+            <source srcset="images/portrait1-2-1920_x_1280.png" media="(min-width: 1080px)">
+            <source srcset="images/portrait1-vertical-720_x_960.png" media="(max-width: 430px)">
+            <img src="images/portrait1-1024_x_682.png" alt="landscape">
+          </picture>
+        </div>
+        
         <div class="carousel-item">
-          <img src="images/portrait1-1024_x_682.png" class="d-block" alt="portrait1-1024_x_682">
+          <picture class="d-block w-100">
+            <source srcset="images/portrait5-1920_x_1280.png" media="(min-width: 1080px)">
+            <source srcset="images/portrait5-vertical-720_x_960.png" media="(max-width: 430px)">
+            <img src="images/portrait5-1024_x_682.png"  alt="landscape">
+          </picture>
         </div>
       </div>
+
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
         data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
