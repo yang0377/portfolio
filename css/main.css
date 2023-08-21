@@ -266,7 +266,9 @@ img {
 
 .photography {
     width: 2rem;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
+    writing-mode: vertical-rl;
+    margin-left: 1rem;
 }
 
 .design a {
@@ -354,6 +356,11 @@ img {
     .mainproject {
         margin-top: 150px;
     }
+
+    /* design page */
+    .design a {
+        font-size: 1rem;
+    }
 }
 
 /* style the large size layout */
@@ -366,7 +373,7 @@ img {
     /* explore page */
     .photography h1 {
         font-size: 3rem;
-        padding-bottom: 3rem;
+        /* padding-bottom: .5rem; */
     }
 
     .albums {
@@ -390,16 +397,8 @@ img {
         margin: 0 30px;
     }
 
-    /* .exploreside:after {
-        content: "";
-        display: block;
-        width: 728px;
-        height: 1px;
-        background: var(--primary-color);
-        position: absolute;
-        left: 0;
-        top: 100;
-        right: 100;
-        z-index: -1;
-    } */
+    /* design page */
+    .design a {
+        font-size: 1.5rem;
+    }
 }
